@@ -1,0 +1,19 @@
+package assignment;
+
+import java.util.Scanner;
+
+public class circumference {
+
+	public static void main(String[] args) {
+		float r;
+		double area,circum;
+		Scanner sc=new Scanner(System.in);
+	    System.out.println("Enter radius");
+	    r=sc.nextFloat();
+	    area=3.14*r*r;
+	    circum=3.14*2*r;
+	    System.out.println("Area of circle  is="+area);
+	    System.out.println("Circum of circle  is="+circum);
+	}
+
+}

@@ -1,0 +1,15 @@
+package opt_demo;
+
+public class opt_demo {
+
+	public static void main(String[] args)
+	{
+		int n1=400,n2=430,n3=400;
+		System.out.println("The value of b is="+(n1==n3 && n1!=n2));
+		System.out.println("The value of b is="+(n1==n2 || n1!=n3));
+		;	
+	
+
+	}
+
+}

@@ -1,0 +1,18 @@
+package assignment;
+
+import java.util.Scanner;
+
+public class SI_demo {
+
+	public static void main(String[] args) {
+		int p,r,n,SI;
+		Scanner sc=new Scanner(System.in);
+	    System.out.println("Enter the values of p,r,n");
+	    p=sc.nextInt();
+	    r=sc.nextInt();
+	    n=sc.nextInt();
+	    SI=p*r*n/100;
+	    System.out.println("Area of rectangle  is="+SI);
+	}
+
+}
